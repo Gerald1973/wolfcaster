@@ -1,0 +1,25 @@
+# Build directories and objects
+build/
+build/obj/
+
+# Object files and executables
+*.o
+wolfcaster
+
+# VSCode temporary files
+.vscode/
+*.code-workspace
+
+# System and temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+
+# Logs and caches
+*.log
+.cache/
+
+# Local dependencies if installed (e.g., via pkg-config, but SDL2 is system-wide)
+deps/
